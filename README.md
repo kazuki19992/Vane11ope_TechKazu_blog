@@ -1,0 +1,1 @@
+# Vane11ope_TechKazu_blog
