@@ -43,8 +43,8 @@ const BlogIndex = ({ data, location }) => {
           )
         })}
       </Layout>
+      <script src="../../node_modules/materialize-css/dist/js/materialize.min.css"></script>
     </div>
-    <script src="../../node_modules/materialize-css/dist/js/materialize.min.css"
   )
 }
 
