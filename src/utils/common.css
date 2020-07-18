@@ -1,22 +1,22 @@
-@import url(https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+@import url('../../node_modules/materialize-css/dist/css/materialize.min.css');
 
 .container {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
-    /* background: linear-gradient(-135deg, #72e4be, #5fd841); */
     
 }
 
 h1 {
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2{
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
-    font-family: 'Kosugi Maru', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
