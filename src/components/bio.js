@@ -61,7 +61,7 @@ const Bio = () => {
         {` `}
         <br />
         <a href={`https://twitter.com/${social.twitter}`}>
-          Twitter(๑•̥ૅㅁ•̥๑)
+          カズ之助くんのTwitter
         </a>
       </p>
     </div>
