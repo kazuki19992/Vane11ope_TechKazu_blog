@@ -29,6 +29,7 @@ const Bio = () => {
           }
           social {
             twitter
+            GitHub
           }
         }
       }
@@ -57,11 +58,14 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author.name}</strong> {author.summary}
+        <strong>{author.name}</strong> <br />
+        <span class="author-summary">{author.summary}</span>
         {` `}
         <br />
         <a href={`https://twitter.com/${social.twitter}`}>
-          カズ之助くんのTwitter
+          Twitter
+        </a> <a href={`https://github.com/${social.GitHub}`}>
+          GitHub
         </a>
       </p>
     </div>

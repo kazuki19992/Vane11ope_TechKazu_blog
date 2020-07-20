@@ -31,7 +31,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          fontFamily: `Roboto, sans-serif`,
           marginTop: 0,
         }}
       >
@@ -52,7 +52,7 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(80),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >

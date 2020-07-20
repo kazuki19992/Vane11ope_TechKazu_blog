@@ -3,12 +3,13 @@ module.exports = {
     title: `Tech_Kazu.log`,
     author: {
       name: `カズ之助`,
-      summary: `カズ之助くんだよっ！！`,
+      summary: `最近のマイブームはトイレにパソコンを持ち込んでn時間Wikipediaを読むことです`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `Tech_Kazu`,
+      GitHub: `kazuki19992`,
     },
   },
   plugins: [
