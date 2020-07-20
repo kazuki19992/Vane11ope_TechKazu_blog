@@ -1,5 +1,5 @@
 ---
-title: 3時間以内で二つ名メーカーを作ろう！！
+title: 3時間以内で二つ名メーカーを作ろう！！(準備編)
 date: "2020-07-20"
 description: JavaScriptとHTMLでつくる簡単なお名前メーカー
 tags: ["JavaScript", "HTML", "初心者向け"]
