@@ -11,7 +11,15 @@ html{
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 3.5rem;
+}
+
+.post-title{
+    /* font-weight: thin; */
+    /* color: #757575; */
+    width: 100%;
+    font-size: 35pt;
+    margin-top: 1.5em !important;
 }
 
 h2{
@@ -50,6 +58,14 @@ h6 {
     font-style: normal;
 }
 
+header{
+    margin-bottom: 1em;
+    border-bottom: 2px #757575;
+}
+
+.maintitle{
+    font-weight: bold;
+}
 /* .list{
     margin-left: 2em;
 } */
@@ -70,4 +86,8 @@ strong{
 
 ul, ol{
     margin-left: 2em;
+}
+
+.github-link{
+    margin-left: 1em;
 }

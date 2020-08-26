@@ -22,6 +22,7 @@ const Layout = ({ location, title, children }) => {
             color: `inherit`,
           }}
           to={`/`}
+          class="maintitle"
         >
           {title}
         </Link>
