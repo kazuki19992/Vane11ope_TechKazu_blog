@@ -91,3 +91,10 @@ ul, ol{
 .github-link{
     margin-left: 1em;
 }
+
+.caption{
+    font-size: 90%;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 3em;
+}
