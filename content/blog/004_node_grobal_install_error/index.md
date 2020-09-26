@@ -34,7 +34,7 @@ gyp ERR! command "/usr/local/bin/node" "/usr/local/lib/node_modules/npm/node_mod
 (ほら、パーミッション関連だと`sudo`つければなんとかなっちゃうことが多いじゃないですか。大いなる力ですよ？)  
 ​
 #### 解決方法
-参考: [npmでpermission deniedになった時の対処法[mac] - qiita](https://qiita.com/okohs/items/ced3c3de30af1035242d)
+参考: [npmでpermission deniedになった時の対処法[mac] - qiita](https://qiita.com/okohs/items/ced3c3de30af1035242d)  
 ​
 やったことは、npmのディレクトリの所有者？を変更しました。  
 1. npmのディレクトリのパスを確認して…
