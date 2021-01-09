@@ -10,6 +10,7 @@ const Layout = ({ location, title, children }) => {
   if (location.pathname === rootPath) {
     header = (
       <h1
+        className="title"
         style={{
           ...scale(1.5),
           marginBottom: rhythm(1.5),
@@ -31,6 +32,7 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <h3
+        className="title"
         style={{
           fontFamily: `Roboto, sans-serif`,
           marginTop: 0,

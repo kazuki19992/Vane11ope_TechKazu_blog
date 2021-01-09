@@ -9,9 +9,24 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 
+@media (prefers-color-scheme: dark) {
+    html{
+        background-color: #000000;
+        color: #ffffff;
+    }
+    .title{
+        color: #ffffff;
+    }
+}
 h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    h1{
+        color: #ffffff;
+    }
 }
 
 .post-title{
@@ -21,13 +36,35 @@ h1 {
     font-size: 35pt;
     margin-top: 1.5em !important;
 }
+@media (prefers-color-scheme: dark) {
+    .post-title{
+        /* font-weight: thin; */
+        /* color: #757575; */
+        width: 100%;
+        font-size: 35pt;
+        margin-top: 1.5em !important;
+        color: #ffffff;
+    }
+}
 
 h2{
     font-family: 'Roboto', sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+    h2{
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+    }
+}
 
 h3{
     font-family: 'Roboto', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+    h3{
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+    }
 }
 
 h4 {
@@ -38,6 +75,16 @@ h4 {
     background: transparent;/*背景透明に*/
     border-left: solid 5px rgb(38, 153, 4);/*左線*/
 }
+@media (prefers-color-scheme: dark) {
+    h4 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20pt;
+        padding: 0.25em 0.5em;/*上下 左右の余白*/
+        color: #cbcbcb;/*文字色*/
+        background: transparent;/*背景透明に*/
+        border-left: solid 5px rgb(38, 153, 4);/*左線*/
+    }
+}
 
 h5 {
     font-family: 'Roboto', sans-serif;
@@ -46,6 +93,16 @@ h5 {
     color: #494949;/*文字色*/
     background: transparent;/*背景透明に*/
     border-left: solid 5px rgb(255, 162, 0);/*左線*/
+}
+@media (prefers-color-scheme: dark) {
+    h5 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17pt;
+        padding: 0.25em 0.5em;/*上下 左右の余白*/
+        color: #cbcbcb;/*文字色*/
+        background: transparent;/*背景透明に*/
+        border-left: solid 5px rgb(255, 162, 0);/*左線*/
+    }
 }
 
 h6 {
@@ -57,10 +114,26 @@ h6 {
     border-left: solid 5px rgb(0, 20, 131);/*左線*/
     font-style: normal;
 }
+@media (prefers-color-scheme: dark) {
+    h6 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 13pt;
+        padding: 0.25em 0.5em;/*上下 左右の余白*/
+        color: #cbcbcb;/*文字色*/
+        background: transparent;/*背景透明に*/
+        border-left: solid 5px rgb(0, 20, 131);/*左線*/
+        font-style: normal;
+    }
+}
 
 header{
     margin-bottom: 1em;
     border-bottom: 2px #757575;
+}
+@media (prefers-color-scheme: dark) {
+    section{
+        color: #fff;
+    }
 }
 
 .maintitle{
@@ -83,9 +156,33 @@ strong{
     font-size: 12px;
     font-style: italic;
 }
+@media (prefers-color-scheme: dark) {
+    .author-summary{
+        color: #cbcbcb;
+        font-size: 12px;
+        font-style: italic;
+    }
+}
 
 ul, ol{
     margin-left: 2em;
+}
+@media (prefers-color-scheme: dark) {
+    ul, ol{
+        margin-left: 2em;
+        color: #ffffff;
+    }
+}
+
+.brankLink{
+    color: #000;
+    text-decoration: none;
+}
+@media (prefers-color-scheme: dark) {
+    .brankLink{
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 .github-link{
@@ -97,4 +194,48 @@ ul, ol{
     text-align: center;
     color: #757575;
     margin-bottom: 3em;
+}
+@media (prefers-color-scheme: dark) {
+    .caption{
+        font-size: 90%;
+        text-align: center;
+        color: #cbcbcb;
+        margin-bottom: 3em;
+    }
+}
+
+/* preタグ */
+@media (prefers-color-scheme: dark) {
+    .language-text, .language-shell{
+        background-color: rgb(0,75,75) !important;
+        color: #ffffff !important;
+    }
+    pre, code{
+        background-color: rgb(0,75,75) !important;
+        color: #ffffff !important;
+    }
+    .number, .property{
+        color: #eaff00 !important;
+    }
+    .keyword{
+        color: #00ffee !important;
+    }
+    .operator{
+        background-color: rgba(0,0,0,0.5) !important;
+        color: #c16bff !important;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    p{
+        color: #ffffff;
+    }
+    .postDate{
+        color: #cbcbcb;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    footer{
+        color: #cbcbcb;
+    }
 }

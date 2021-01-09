@@ -18,7 +18,7 @@ tags: ["JavaScript", "HTML", "初心者向け"]
 <div class="list">
     <ol>
         <li><a href="https://www.google.com/intl/ja_jp/chrome/" target="_brank">Google Chrome</a></li>
-        <li><a href="https://code.visualstudio.com/download" target="_brank">VScode</a>（ほか<a href="https://www.kaoriya.net/software/vim/" target="_brank" style="text-decoration: none; color: #000;">何らかのテキストエディター</a>）</li>
+        <li><a href="https://code.visualstudio.com/download" target="_brank">VScode</a>（ほか<a class="brankLink" href="https://www.kaoriya.net/software/vim/" target="_brank" style="text-decoration: none;">何らかのテキストエディター</a>）</li>
         <li><a href="https://github.com/join?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home" target="_brank">GitHubアカウント</a></li>
         <li>お使いのOS用のGitとGitの初期設定を済ませる！(<a href="https://eng-entrance.com/git-install" target="_brank">Windows</a>, <a href="http://mtntmyk.hatenablog.com/entry/2018/01/28/115234" target="_brank">macOS</a>, <a href="https://linux.keicode.com/prog/git-install.php" target="_brank">Linux(Ubuntu)</a>)</li>
         <div class="list">
